@@ -1,0 +1,239 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+    
+ }
+
+header {
+    width: 100%;
+    height: 650px;
+    background-image: url(img/img1-big.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+    color: #fff;
+    text-align: center;
+}
+/*/////////Encabezado////////////////*/
+header .textos {
+     margin-top: 200px;
+     background-color: #000; 
+}
+
+
+@font-face{
+	font-family: dj;
+	src:url(fuentes/dj.ttf);
+}
+
+header .titulos {
+    font-size: 85px;
+    font-family: dj;
+}
+ 
+ /***************************************/
+
+ .sesgoabajo {
+    z-index: 10;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    border-width: 0 0 20vh 100vw;
+    border-style: solid;
+    border-color: transparent transparent #000  transparent;
+}
+
+.sesgoarriba {
+    z-index: 10;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-width: 20vh 100vw 0 0;
+    border-style: solid;
+    border-color: #000 transparent transparent transparent;
+    
+}
+
+/*********************************************************/
+
+
+/*///////////////Servios/////////////*/
+.acerca{
+    background-color: #000;
+
+}
+.contenedor {
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+    overflow: hidden;
+    padding: 52px 0;
+}
+
+ .slogan {
+    color:#fff;
+    font-size: 50px;
+    font-weight: 300;
+    text-align: center;
+    margin-bottom:60px;
+}
+
+
+.parrafo {
+    color:#fff;
+    font-size: 150%;
+    margin-bottom: 13px;
+    font-weight: 300;
+    text-align: justify;
+    line-height: 25px;
+    
+     
+}
+/*///////////////sSERIVIOC/////////////*/
+/*///////////////Galeria/////////////*/
+.galeria {
+    width: 100%;
+    height: 500px;
+    overflow: hidden;
+    display: flex;
+    position: relative;
+    flex-wrap: wrap;
+}
+.imagenes {
+    width: 20%;
+    height: 500px;
+    overflow: hidden;
+    position: relative;
+}
+.imagenes img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+/*///////////////Galeria/////////////*/ 
+/*///////////////Carrusel/////////////*/
+.miembros{
+    background: #000;
+    color: #fff;
+
+} 
+/*///////////////Carrusel/////////////*/
+/*///////////////Contacto/////////////*/
+.slogan2 {
+    font-size: 50px;
+    font-weight: 300;
+    text-align: center;
+   
+    margin-top: 40px;
+}
+.fondo { 
+     width: 100%;
+    height: 650px;
+    background-image: url(img/5.png);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+    color: #fff;
+    text-align: center;
+}
+ 
+
+.sesgoabajo-unico {
+    z-index: 10;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    border-width: 0 0 35vh 100vw;
+    border-style: solid;
+    border-color: transparent transparent #fff transparent;
+}
+
+ 
+/*///////////////Contacto/////////////*/
+
+/*/////////////Barra Social//////////*/
+
+html {
+    font-size: 16px;
+}
+.social-bar {
+    position: fixed; 
+    right: 0;
+    top: 35%;
+    font-size: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    z-index: 100;
+}
+
+.icon {
+    color: white;
+    text-decoration: none;
+    padding: .7rem;
+    display: flex;
+    transition: all .5s;
+}
+
+.icon-facebook2 {
+    background: #2E406E;
+}
+
+.icon-twitter {
+    background: #339DC5;
+}
+
+.icon-gmail {
+    background: #ffff;
+}
+
+.icon-instagram {
+    background: #3F60A5;
+}
+
+.icon:first-child {
+    border-radius: 1rem 0 0 0;
+}
+
+.icon:last-child {
+    border-radius: 0 0 0 1rem;
+}
+
+.icon:hover {
+    padding-right:  3rem;
+    border-radius: 1rem 0 0 1rem;
+    box-shadow: 0 0 .5rem rgba(0, 0, 0, 0.42);
+}
+
+/*/////////////Barra Social//////////*/
+
+
+
+
+/******************galeria2**************/
+.galeria2{
+    margin: 10px 50px;
+
+}
+
+.galeria2 img{
+    width:230px;
+    padding: 5px;
+    filter: grayscale(100%);
+    transition: 1s;
+}
+
+.galeria2 img:hover{
+    filter:grayscale(0);
+    transform: scale(1.1);
+}
+
+/******************galeria2**************/
